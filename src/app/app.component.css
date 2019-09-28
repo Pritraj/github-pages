@@ -1,3 +1,7 @@
-.mat-accordion > * {
-    border-radius: 1px;
+.mat-card,
+.mat-expansion-panel,
+.mat-expansion-panel-header,
+.mat-expansion-panel-header-title,
+.mat-expansion-panel-header-description{
+    border-radius: 1px !important;
 }
