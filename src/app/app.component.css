@@ -1,7 +1,17 @@
-.mat-card, .mat-expansion-panel, .mat-expansion-panel-header, .mat-expansion-panel-header-title, .mat-expansion-panel-header-description {
-    border-radius: 1px !important;
-}
-
 .fa-heart {
     color: hotpink;
+}
+.section-left{
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 60px 60px 60px 60px;
+}
+.section-right{
+    display: block;
+    float: right;
+    width: 60%;
+}
+.user-name{
+    color: #9099a0;
 }
