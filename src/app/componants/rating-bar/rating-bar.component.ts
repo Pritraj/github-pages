@@ -7,7 +7,7 @@ import { Component, OnInit , Input} from '@angular/core';
 })
 export class RatingBarComponent implements OnInit {
 
-  @Input() rating: Number;
+  @Input() rating: number;
   @Input() skill: String;
 
   constructor() { 
