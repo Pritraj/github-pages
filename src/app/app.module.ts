@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card'
 import {MatExpansionModule} from '@angular/material/expansion';
+import { RatingBarComponent } from './componants/rating-bar/rating-bar.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RatingBarComponent
   ],
   imports: [
     BrowserModule,

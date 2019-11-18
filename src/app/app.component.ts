@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { RatingBarComponent } from '../app/componants/rating-bar/rating-bar.component'; 
+import { from } from 'rxjs';
 
 @Component({
   selector: 'app-root',
