@@ -23,6 +23,7 @@ jobs:
         npm i
         npm link @angular/cli
         ng build --prod --base-href "https://pritraj.github.io/github-pages/"
+        npm install ngh
         ngh
       env:
         CI: true
