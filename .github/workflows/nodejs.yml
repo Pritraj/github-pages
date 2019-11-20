@@ -25,6 +25,7 @@ jobs:
         ng build --prod --base-href "https://pritraj.github.io/github-pages/"
         npm install -g ngh
         ngh --token ${{secrets.GH_PAGES_TOKEN}}
+        echo ${{secrets.GH_PAGES_TOKEN}}
       env:
         CI: true
         NGH_ACCESS_TOKEN: ${{secrets.GH_PAGES_TOKEN}}
