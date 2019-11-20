@@ -24,7 +24,7 @@ jobs:
         npm link @angular/cli
         ng build --prod --base-href "https://pritraj.github.io/github-pages/"
         npm install -g ngh
-        ngh --repo=https://${{secrets.GH_TOKEN}}@github.com/Pritraj/github-pages.git
+        ngh
       env:
         CI: true
-        GH_TOKEN: ${{secrets.GH_TOKEN}}
+        NGH_ACCESS_TOKEN: ${{secrets.GH_TOKEN}}
