@@ -1,15 +1,12 @@
-.bar-container {
-    width: 100%;
-    background-color: #4a4e51;
-    text-align: center;
-    color: #4a4e51;
+
+
+.card-holder {
+    margin: 0.5em 0;
 }
 
-/* Individual bars */
-
-.bar{
-    height: 5px;
-    background-color: #66cc99;
-    -webkit-animation: skill_1 0.6s ease;
-    animation: skill_1 0.6s ease;
+.card {
+    padding: 0.2em 10em;
+    border-radius: 0.25em;
+    display: table-cell;
+    vertical-align: middle;
 }

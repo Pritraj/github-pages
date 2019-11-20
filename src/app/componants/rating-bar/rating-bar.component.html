@@ -1,5 +1,14 @@
-<div class="middle">
-    <div class="bar-container">
-        <div class="bar" [style.width.%]="rating*10" ></div>
-    </div>
-</div>
+<table>
+    <tr>
+        <td style="width: 30%;">
+            <span class="pull-left">{{label}}</span>
+        </td>
+        <td style="width: 70%;">
+            <div class="card-holder">
+                <div class="card" [style.background]="getStyleD(rating)">
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+

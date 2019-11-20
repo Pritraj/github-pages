@@ -27,3 +27,4 @@ jobs:
         ngh
       env:
         CI: true
+        NGH_ACCESS_TOKEN: ${{secrets.GH_PAGES_TOKEN}}
